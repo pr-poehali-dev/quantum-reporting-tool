@@ -3,25 +3,25 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 
 const testimonials = [
   {
-    name: "Елена Родригес",
-    role: "Директор по нейронауке, Quantum Dynamics",
-    avatar: "/professional-woman-scientist.png",
-    content:
-      "SynapseAI изменил наш подход к нейрореабилитации. Результаты пациентов улучшились на 340% после внедрения.",
-  },
-  {
-    name: "Маркус Уильямс",
-    role: "Руководитель исследований, Stellar Analytics",
+    name: "Артём «Sniper» Волков",
+    role: "Победитель Pro-турнира",
     avatar: "/cybersecurity-expert-man.jpg",
     content:
-      "Точность и протоколы безопасности не имеют аналогов. Мы значительно ускорили клинические испытания с платформой SynapseAI.",
+      "Взял Pro Pass ради приоритетной регистрации — и уже через неделю выиграл первый денежный турнир. Призы приходят моментально!",
   },
   {
-    name: "Анна Ковальски",
-    role: "Вице-президент по разработке, Nova Industries",
+    name: "Данил «Ghost» Смирнов",
+    role: "Капитан команды NoScope",
     avatar: "/asian-woman-tech-developer.jpg",
     content:
-      "Интеграция прошла безупречно. Адаптивные алгоритмы понимают намерения пользователя лучше любой системы, что мы тестировали.",
+      "Собрал команду через маркет, купили Legend Pass на всех. Скины топовые, лиги честные, соперники по уровню. Рекомендую.",
+  },
+  {
+    name: "Кирилл «Flash» Орлов",
+    role: "Стример и игрок Standoff 2",
+    avatar: "/professional-woman-scientist.png",
+    content:
+      "Начинал с Rookie Pass за 299₽, чтобы попробовать. Затянуло так, что теперь играю каждый день. Идеальный старт в турнирах.",
   },
 ]
 
@@ -30,9 +30,9 @@ export function TestimonialsSection() {
     <section className="py-24 px-6 bg-card">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-card-foreground mb-4 font-sans">Нам доверяют лидеры</h2>
+          <h2 className="text-4xl font-bold text-card-foreground mb-4 font-sans">Отзывы игроков</h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-            Что говорят лидеры индустрии о нашей революционной технологии
+            Что говорят те, кто уже играет на турнирах и забирает призы
           </p>
         </div>
 

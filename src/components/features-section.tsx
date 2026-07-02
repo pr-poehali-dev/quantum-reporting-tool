@@ -1,42 +1,43 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
+import Icon from "@/components/ui/icon"
 
 const features = [
   {
-    title: "Адаптивная нейрообработка",
-    description: "Самооптимизирующиеся алгоритмы, которые обучаются на нейронных паттернах и улучшают интерпретацию сигналов.",
-    icon: "brain",
-    badge: "ИИ",
+    title: "Мгновенный доступ",
+    description: "Билет и вход на турнир приходят сразу после оплаты. Никаких очередей — заходи и играй.",
+    icon: "Zap",
+    badge: "Быстро",
   },
   {
-    title: "Медицинская защита",
-    description: "Шифрование по стандартам FDA со сквозной защитой конфиденциальных нейронных данных.",
-    icon: "lock",
-    badge: "Сертификат",
+    title: "Реальные призы",
+    description: "Денежный призовой фонд, редкие скины и внутриигровая валюта для победителей каждого турнира.",
+    icon: "Trophy",
+    badge: "Награды",
   },
   {
-    title: "Интуитивное управление",
-    description: "Естественная трансляция мыслей в действия с откликом менее миллисекунды и точностью 99,7%.",
-    icon: "globe",
-    badge: "Точность",
+    title: "Честная игра",
+    description: "Античит и модерация на всех матчах. Результаты фиксируются автоматически, без накруток.",
+    icon: "ShieldCheck",
+    badge: "Fair Play",
   },
   {
-    title: "Предиктивная калибровка",
-    description: "ML-модели, которые предугадывают намерения пользователя и оптимизируют нейронные пути.",
-    icon: "zap",
-    badge: "Умный",
+    title: "Эксклюзивные скины",
+    description: "Пакеты с уникальными скинами на оружие, ножи и перчатки, которых нет в обычном магазине.",
+    icon: "Sparkles",
+    badge: "Эксклюзив",
   },
   {
-    title: "Биометрическая интеграция",
-    description: "Бесшовная синхронизация с мониторингом жизненных показателей для контроля здоровья.",
-    icon: "link",
-    badge: "Связь",
+    title: "Турниры по уровням",
+    description: "От новичков до про-игроков — подбираем соперников по рангу, чтобы игра была интересной.",
+    icon: "Users",
+    badge: "Баланс",
   },
   {
-    title: "Поддержка XR",
-    description: "Нативная совместимость с AR/VR-средами для терапевтических и рабочих приложений.",
-    icon: "target",
-    badge: "XR Ready",
+    title: "Безопасная оплата",
+    description: "Оплачивай билеты картой, СБП или кошельком. Возврат до старта турнира без вопросов.",
+    icon: "CreditCard",
+    badge: "Защита",
   },
 ]
 
@@ -45,9 +46,9 @@ export function FeaturesSection() {
     <section className="py-24 px-6 bg-background">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-foreground mb-4 font-sans">Возможности нового поколения</h2>
+          <h2 className="text-4xl font-bold text-foreground mb-4 font-sans">Почему выбирают нас</h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-            Почувствуйте будущее с технологиями, которые переопределяют возможное
+            Всё для комфортной игры на турнирах Standoff 2 — от честных матчей до реальных призов
           </p>
         </div>
 
@@ -60,13 +61,8 @@ export function FeaturesSection() {
             >
               <CardHeader>
                 <div className="flex items-center justify-between mb-2">
-                  <span className="text-3xl">
-                    {feature.icon === "brain" && "&#129504;"}
-                    {feature.icon === "lock" && "&#128274;"}
-                    {feature.icon === "globe" && "&#127760;"}
-                    {feature.icon === "zap" && "&#9889;"}
-                    {feature.icon === "link" && "&#128279;"}
-                    {feature.icon === "target" && "&#127919;"}
+                  <span className="w-12 h-12 rounded-xl bg-red-500/15 flex items-center justify-center">
+                    <Icon name={feature.icon} className="text-red-500" size={26} />
                   </span>
                   <Badge variant="secondary" className="bg-accent text-accent-foreground">
                     {feature.badge}
