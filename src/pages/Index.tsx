@@ -10,6 +10,7 @@ import { CTASection } from "@/components/cta-section"
 import { Navbar } from "@/components/navbar"
 import { Footer } from "@/components/footer"
 import { ThemeProvider, useTheme } from "@/lib/theme-context"
+import { LangProvider } from "@/lib/lang-context"
 
 function PageContent() {
   const { theme } = useTheme()
@@ -40,8 +41,10 @@ function PageContent() {
 
 export default function Index() {
   return (
-    <ThemeProvider>
-      <PageContent />
-    </ThemeProvider>
+    <LangProvider>
+      <ThemeProvider>
+        <PageContent />
+      </ThemeProvider>
+    </LangProvider>
   )
 }

@@ -145,6 +145,22 @@
     animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
   }
 
+  .shimmer-text {
+    background: linear-gradient(
+      90deg,
+      #ffffff 0%,
+      #ef4444 25%,
+      #ff8c00 50%,
+      #ef4444 75%,
+      #ffffff 100%
+    );
+    background-size: 300% auto;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    animation: shimmerMove 4s linear infinite;
+  }
+
   .package-card {
     position: relative;
     transition:
@@ -233,6 +249,15 @@
   }
   50% {
     opacity: 0.8;
+  }
+}
+
+@keyframes shimmerMove {
+  0% {
+    background-position: 200% center;
+  }
+  100% {
+    background-position: -200% center;
   }
 }
 
