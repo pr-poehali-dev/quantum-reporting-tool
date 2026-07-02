@@ -100,15 +100,17 @@ export function TechnologySection() {
                 ))}
               </ul>
 
-              <Button
-                className={`w-full text-lg py-6 font-orbitron ${
-                  pkg.highlight
-                    ? "bg-red-500 hover:bg-red-600 text-white"
-                    : "bg-white/10 hover:bg-red-500 text-white border border-red-500/40"
-                }`}
-              >
-                Купить пакет
-              </Button>
+              <a href="https://t.me/Paveldduroov" target="_blank" rel="noopener noreferrer" className="block">
+                <Button
+                  className={`w-full text-lg py-6 font-orbitron ${
+                    pkg.highlight
+                      ? "bg-red-500 hover:bg-red-600 text-white"
+                      : "bg-white/10 hover:bg-red-500 text-white border border-red-500/40"
+                  }`}
+                >
+                  Купить пакет
+                </Button>
+              </a>
             </div>
           ))}
         </div>
