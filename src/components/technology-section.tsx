@@ -64,10 +64,10 @@ export function TechnologySection() {
           {packages.map((pkg, index) => (
             <div
               key={index}
-              className={`relative rounded-2xl p-8 slide-up transition-all duration-300 flex flex-col ${
+              className={`package-card relative rounded-2xl p-8 slide-up flex flex-col ${
                 pkg.highlight
                   ? "bg-gradient-to-b from-red-500/20 to-black border-2 border-red-500 shadow-[0_0_40px_rgba(239,68,68,0.25)] scale-105"
-                  : "bg-white/5 border border-red-500/20 hover:border-red-500/50"
+                  : "bg-white/5 border border-red-500/20"
               }`}
               style={{ animationDelay: `${index * 0.12}s` }}
             >
