@@ -4,40 +4,40 @@ import Icon from "@/components/ui/icon"
 
 const features = [
   {
-    title: "Мгновенный доступ",
-    description: "Билет и вход на турнир приходят сразу после оплаты. Никаких очередей — заходи и играй.",
+    title: "Instant Access",
+    description: "Ticket and tournament entry arrive right after payment. No queues — just join and play.",
     icon: "Zap",
-    badge: "Быстро",
+    badge: "Fast",
   },
   {
-    title: "Реальные призы",
-    description: "Денежный призовой фонд, редкие скины и внутриигровая валюта для победителей каждого турнира.",
+    title: "Real Prizes",
+    description: "Cash prize pools, rare skins and in-game currency for winners of every tournament.",
     icon: "Trophy",
-    badge: "Награды",
+    badge: "Rewards",
   },
   {
-    title: "Честная игра",
-    description: "Античит и модерация на всех матчах. Результаты фиксируются автоматически, без накруток.",
+    title: "Fair Play",
+    description: "Anti-cheat and moderation on all matches. Results are recorded automatically, no cheating.",
     icon: "ShieldCheck",
     badge: "Fair Play",
   },
   {
-    title: "Эксклюзивные скины",
-    description: "Пакеты с уникальными скинами на оружие, ножи и перчатки, которых нет в обычном магазине.",
+    title: "Exclusive Skins",
+    description: "Packages with unique weapon, knife and glove skins you won't find in the regular store.",
     icon: "Sparkles",
-    badge: "Эксклюзив",
+    badge: "Exclusive",
   },
   {
-    title: "Турниры по уровням",
-    description: "От новичков до про-игроков — подбираем соперников по рангу, чтобы игра была интересной.",
+    title: "Ranked Tournaments",
+    description: "From beginners to pros — we match opponents by rank so every game stays exciting.",
     icon: "Users",
-    badge: "Баланс",
+    badge: "Balanced",
   },
   {
-    title: "Безопасная оплата",
-    description: "Оплачивай билеты картой, СБП или кошельком. Возврат до старта турнира без вопросов.",
+    title: "Secure Payment",
+    description: "Pay for tickets by card or e-wallet. Full refund available before the tournament starts.",
     icon: "CreditCard",
-    badge: "Защита",
+    badge: "Secure",
   },
 ]
 
@@ -46,9 +46,9 @@ export function FeaturesSection() {
     <section className="py-24 px-6 bg-background">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-foreground mb-4 font-sans">Почему выбирают нас</h2>
+          <h2 className="text-4xl font-bold text-foreground mb-4 font-sans">Why Choose Us</h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-            Всё для комфортной игры на турнирах Standoff 2 — от честных матчей до реальных призов
+            Everything for a great Standoff 2 tournament experience — from fair matches to real prizes
           </p>
         </div>
 

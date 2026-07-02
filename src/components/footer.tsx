@@ -11,7 +11,7 @@ export function Footer() {
               Standoff<span className="text-red-500">Arena</span>
             </h2>
             <p className="font-space-mono text-gray-300 mb-6 max-w-md">
-              Маркетплейс билетов и пакетов на турниры Standoff 2. Сражайся за призы вместе с лучшими игроками.
+              Marketplace for Standoff 2 tournament tickets and packages. Compete for prizes with the best players.
             </p>
             <div className="flex space-x-4">
               <a href="#" className="text-gray-400 hover:text-red-500 transition-colors duration-200">
@@ -29,40 +29,28 @@ export function Footer() {
             </div>
           </div>
 
-          {/* Product */}
+          {/* Market */}
           <div>
-            <h3 className="font-orbitron text-white font-semibold mb-4">Маркет</h3>
+            <h3 className="font-orbitron text-white font-semibold mb-4">Market</h3>
             <ul className="space-y-2">
               <li>
-                <a
-                  href="#packages"
-                  className="font-space-mono text-gray-400 hover:text-red-500 transition-colors duration-200"
-                >
-                  Пакеты
+                <a href="#packages" className="font-space-mono text-gray-400 hover:text-red-500 transition-colors duration-200">
+                  Packages
                 </a>
               </li>
               <li>
-                <a
-                  href="#applications"
-                  className="font-space-mono text-gray-400 hover:text-red-500 transition-colors duration-200"
-                >
-                  Турниры
+                <a href="#applications" className="font-space-mono text-gray-400 hover:text-red-500 transition-colors duration-200">
+                  Tournaments
                 </a>
               </li>
               <li>
-                <a
-                  href="#packages"
-                  className="font-space-mono text-gray-400 hover:text-red-500 transition-colors duration-200"
-                >
-                  Билеты
+                <a href="#packages" className="font-space-mono text-gray-400 hover:text-red-500 transition-colors duration-200">
+                  Tickets
                 </a>
               </li>
               <li>
-                <a
-                  href="#faq"
-                  className="font-space-mono text-gray-400 hover:text-red-500 transition-colors duration-200"
-                >
-                  Вопросы
+                <a href="#faq" className="font-space-mono text-gray-400 hover:text-red-500 transition-colors duration-200">
+                  FAQ
                 </a>
               </li>
             </ul>
@@ -70,26 +58,26 @@ export function Footer() {
 
           {/* Company */}
           <div>
-            <h3 className="font-orbitron text-white font-semibold mb-4">Компания</h3>
+            <h3 className="font-orbitron text-white font-semibold mb-4">Company</h3>
             <ul className="space-y-2">
               <li>
                 <a href="#" className="font-space-mono text-gray-400 hover:text-red-500 transition-colors duration-200">
-                  О нас
+                  About
                 </a>
               </li>
               <li>
                 <a href="#" className="font-space-mono text-gray-400 hover:text-red-500 transition-colors duration-200">
-                  Карьера
+                  Careers
                 </a>
               </li>
               <li>
                 <a href="#" className="font-space-mono text-gray-400 hover:text-red-500 transition-colors duration-200">
-                  Пресса
+                  Press
                 </a>
               </li>
               <li>
                 <a href="#" className="font-space-mono text-gray-400 hover:text-red-500 transition-colors duration-200">
-                  Контакты
+                  Contact
                 </a>
               </li>
             </ul>
@@ -99,25 +87,16 @@ export function Footer() {
         {/* Bottom Bar */}
         <div className="mt-8 pt-8 border-t border-red-500/20">
           <div className="flex flex-col md:flex-row justify-between items-center">
-            <p className="font-space-mono text-gray-400 text-sm">2025 Standoff Arena. Все права защищены.</p>
+            <p className="font-space-mono text-gray-400 text-sm">2025 Standoff Arena. All rights reserved.</p>
             <div className="flex space-x-6 mt-4 md:mt-0">
-              <a
-                href="#"
-                className="font-space-mono text-gray-400 hover:text-red-500 text-sm transition-colors duration-200"
-              >
-                Конфиденциальность
+              <a href="#" className="font-space-mono text-gray-400 hover:text-red-500 text-sm transition-colors duration-200">
+                Privacy
               </a>
-              <a
-                href="#"
-                className="font-space-mono text-gray-400 hover:text-red-500 text-sm transition-colors duration-200"
-              >
-                Условия использования
+              <a href="#" className="font-space-mono text-gray-400 hover:text-red-500 text-sm transition-colors duration-200">
+                Terms of Use
               </a>
-              <a
-                href="#"
-                className="font-space-mono text-gray-400 hover:text-red-500 text-sm transition-colors duration-200"
-              >
-                Cookie-политика
+              <a href="#" className="font-space-mono text-gray-400 hover:text-red-500 text-sm transition-colors duration-200">
+                Cookie Policy
               </a>
             </div>
           </div>

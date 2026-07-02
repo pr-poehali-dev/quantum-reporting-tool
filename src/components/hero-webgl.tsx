@@ -115,7 +115,7 @@ const Scene = () => {
 
 export const Hero3DWebGL = () => {
   const titleWords = "Standoff Arena".split(" ")
-  const subtitle = "Билеты и пакеты на турниры Standoff 2. Играй, побеждай, забирай призы."
+  const subtitle = "Tickets & packages for Standoff 2 tournaments. Play, win, collect prizes."
   const [visibleWords, setVisibleWords] = useState(0)
   const [subtitleVisible, setSubtitleVisible] = useState(false)
   const [delays, setDelays] = useState<number[]>([])

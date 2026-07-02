@@ -3,25 +3,25 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 
 const testimonials = [
   {
-    name: "Артём «Sniper» Волков",
-    role: "Победитель Pro-турнира",
+    name: "Artem «Sniper» Volkov",
+    role: "Pro Tournament Winner",
     avatar: "/cybersecurity-expert-man.jpg",
     content:
-      "Взял Pro Pass ради приоритетной регистрации — и уже через неделю выиграл первый денежный турнир. Призы приходят моментально!",
+      "Got the Pro Pass for priority registration — and a week later won my first cash tournament. Prizes land instantly!",
   },
   {
-    name: "Данил «Ghost» Смирнов",
-    role: "Капитан команды NoScope",
+    name: "Danil «Ghost» Smirnov",
+    role: "Captain of NoScope",
     avatar: "/asian-woman-tech-developer.jpg",
     content:
-      "Собрал команду через маркет, купили Legend Pass на всех. Скины топовые, лиги честные, соперники по уровню. Рекомендую.",
+      "Put together a squad through the marketplace, bought Legend Pass for everyone. Top skins, fair leagues, balanced opponents. Highly recommend.",
   },
   {
-    name: "Кирилл «Flash» Орлов",
-    role: "Стример и игрок Standoff 2",
+    name: "Kirill «Flash» Orlov",
+    role: "Streamer & Standoff 2 Player",
     avatar: "/professional-woman-scientist.png",
     content:
-      "Начинал с Rookie Pass за 299₽, чтобы попробовать. Затянуло так, что теперь играю каждый день. Идеальный старт в турнирах.",
+      "Started with the Rookie Pass at 299₽ just to try it out. Got hooked and now I play every day. Perfect entry into tournaments.",
   },
 ]
 
@@ -30,9 +30,9 @@ export function TestimonialsSection() {
     <section className="py-24 px-6 bg-card">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-card-foreground mb-4 font-sans">Отзывы игроков</h2>
+          <h2 className="text-4xl font-bold text-card-foreground mb-4 font-sans">Player Reviews</h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-            Что говорят те, кто уже играет на турнирах и забирает призы
+            What players who already compete and win prizes have to say
           </p>
         </div>
 

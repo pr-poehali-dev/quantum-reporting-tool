@@ -9,10 +9,12 @@ import { FAQSection } from "@/components/faq-section"
 import { CTASection } from "@/components/cta-section"
 import { Navbar } from "@/components/navbar"
 import { Footer } from "@/components/footer"
+import { ThemeProvider, useTheme } from "@/lib/theme-context"
 
-export default function Index() {
+function PageContent() {
+  const { theme } = useTheme()
   return (
-    <div className="dark">
+    <div className={theme}>
       <Navbar />
       <main>
         <Hero3D />
@@ -33,5 +35,13 @@ export default function Index() {
       </main>
       <Footer />
     </div>
+  )
+}
+
+export default function Index() {
+  return (
+    <ThemeProvider>
+      <PageContent />
+    </ThemeProvider>
   )
 }

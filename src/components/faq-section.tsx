@@ -3,34 +3,34 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/
 export function FAQSection() {
   const faqs = [
     {
-      question: "Как купить билет на турнир?",
+      question: "How do I buy a tournament ticket?",
       answer:
-        "Выбери подходящий пакет в разделе «Пакеты», нажми «Купить» и оплати удобным способом. Билет и доступ к турниру придут моментально после оплаты.",
+        "Choose a package in the Packages section, click Buy and pay using your preferred method. Your ticket and tournament access are delivered instantly after payment.",
     },
     {
-      question: "Что входит в пакеты?",
+      question: "What's included in the packages?",
       answer:
-        "В зависимости от уровня пакета ты получаешь билет на турнир, внутриигровые бонусы, приоритетную регистрацию, эксклюзивные скины и увеличенный призовой фонд.",
+        "Depending on the package level you get a tournament ticket, in-game bonuses, priority registration, exclusive skins and an increased prize pool.",
     },
     {
-      question: "Можно ли вернуть билет?",
+      question: "Can I get a refund?",
       answer:
-        "Да, билет можно вернуть до начала турнира. После старта матчей возврат средств не производится, но билет можно передать другому игроку.",
+        "Yes, you can return your ticket before the tournament starts. After matches begin refunds are not available, but you can transfer your ticket to another player.",
     },
     {
-      question: "Как проходят турниры Standoff 2?",
+      question: "How do Standoff 2 tournaments work?",
       answer:
-        "Турниры проходят онлайн в формате сеток на выбывание или round-robin. Расписание и правила публикуются заранее, а результаты фиксируются автоматически.",
+        "Tournaments run online in single-elimination bracket or round-robin format. The schedule and rules are published in advance and results are recorded automatically.",
     },
     {
-      question: "Как выплачиваются призы?",
+      question: "How are prizes paid out?",
       answer:
-        "Призовой фонд распределяется между победителями сразу после завершения турнира и зачисляется на игровой или платёжный аккаунт в течение 24 часов.",
+        "The prize pool is distributed among winners immediately after the tournament ends and credited to your game or payment account within 24 hours.",
     },
     {
-      question: "Кто может участвовать?",
+      question: "Who can participate?",
       answer:
-        "Участвовать может любой игрок Standoff 2 с активным аккаунтом. Для некоторых пакетов предусмотрены турниры по уровням — от новичков до про-игроков.",
+        "Any Standoff 2 player with an active account can join. Some packages include ranked tournaments — from beginners to pro players.",
     },
   ]
 
@@ -38,9 +38,9 @@ export function FAQSection() {
     <section className="py-24 bg-black">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-white mb-6 font-orbitron">Частые вопросы</h2>
+          <h2 className="text-4xl md:text-5xl font-bold text-white mb-6 font-orbitron">FAQ</h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto font-space-mono">
-            Ответы на популярные вопросы о билетах, пакетах и участии в турнирах Standoff 2.
+            Answers to common questions about tickets, packages and participating in Standoff 2 tournaments.
           </p>
         </div>
 

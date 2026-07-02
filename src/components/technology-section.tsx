@@ -6,42 +6,42 @@ const packages = [
   {
     name: "Rookie Pass",
     price: "299 ₽",
-    tagline: "Старт в турнирах",
+    tagline: "Start your journey",
     highlight: false,
     icon: "Ticket",
     perks: [
-      "1 билет на онлайн-турнир",
-      "Стартовый кейс со скином",
-      "Доступ в общий Discord",
-      "Статистика матчей",
+      "1 ticket to an online tournament",
+      "Starter case with a skin",
+      "Access to the general Discord",
+      "Match statistics",
     ],
   },
   {
     name: "Pro Pass",
     price: "999 ₽",
-    tagline: "Выбор игроков",
+    tagline: "Players' choice",
     highlight: true,
     icon: "Flame",
     perks: [
-      "3 билета на турниры любого уровня",
-      "Редкий скин на нож + перчатки",
-      "Приоритетная регистрация",
-      "Увеличенный призовой фонд x1.5",
-      "Эксклюзивный значок профиля",
+      "3 tickets to any-level tournaments",
+      "Rare knife + gloves skin",
+      "Priority registration",
+      "Increased prize pool x1.5",
+      "Exclusive profile badge",
     ],
   },
   {
     name: "Legend Pass",
     price: "2 490 ₽",
-    tagline: "Максимум наград",
+    tagline: "Maximum rewards",
     highlight: false,
     icon: "Crown",
     perks: [
-      "Безлимит билетов на месяц",
-      "Легендарный набор скинов",
-      "Слот в про-лиге",
-      "Призовой фонд x2 + кэшбек",
-      "Вывод первым при повторе матча",
+      "Unlimited tickets for a month",
+      "Legendary skin bundle",
+      "Slot in the pro league",
+      "Prize pool x2 + cashback",
+      "First pick on rematch",
     ],
   },
 ]
@@ -52,11 +52,11 @@ export function TechnologySection() {
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <Badge variant="secondary" className="bg-red-500/10 text-red-400 border border-red-500/30 mb-4">
-            Маркетплейс пакетов
+            Package Marketplace
           </Badge>
-          <h2 className="text-4xl md:text-5xl font-bold text-white mb-4 font-orbitron">Выбери свой пакет</h2>
+          <h2 className="text-4xl md:text-5xl font-bold text-white mb-4 font-orbitron">Choose Your Package</h2>
           <p className="text-xl text-gray-300 max-w-2xl mx-auto leading-relaxed">
-            Билеты на турниры Standoff 2 с бонусами, скинами и увеличенным призовым фондом. Чем выше пакет — тем больше приколов.
+            Standoff 2 tournament tickets with bonuses, skins and increased prize pools. The higher the package — the more perks you get.
           </p>
         </div>
 
@@ -73,7 +73,7 @@ export function TechnologySection() {
             >
               {pkg.highlight && (
                 <div className="absolute -top-4 left-1/2 -translate-x-1/2">
-                  <Badge className="bg-red-500 text-white border-0 px-4 py-1 font-orbitron">Популярный</Badge>
+                  <Badge className="bg-red-500 text-white border-0 px-4 py-1 font-orbitron">Most Popular</Badge>
                 </div>
               )}
 
@@ -108,7 +108,7 @@ export function TechnologySection() {
                       : "bg-white/10 hover:bg-red-500 text-white border border-red-500/40"
                   }`}
                 >
-                  Купить пакет
+                  Buy Package
                 </Button>
               </a>
             </div>
